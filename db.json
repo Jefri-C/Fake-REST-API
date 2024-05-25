@@ -1,0 +1,77 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "username": "superadmin",
+            "email": "superadmin@demo.com",
+            "password": "superadmin"
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "name": "Bag"
+        },
+        {
+            "id": "2",
+            "name": "Wallet"
+        },
+        {
+            "id": "3",
+            "name": "Accesories"
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "categoryID": "1",
+            "name": "Product 1",
+            "price": "200000"
+        },
+        {
+            "id": "2",
+            "categoryID": "3",
+            "name": "Product 2",
+            "price": "220000"
+        },
+        {
+            "id": "3",
+            "categoryID": "2",
+            "name": "Product 3",
+            "price": "130000"
+        }
+    ],
+    "sales": [
+        {
+            "id": 1,
+            "date": "2024-05-25",
+            "paymentMethod": "cash",
+            "salesDetails": [
+                {
+                    "product": 1,
+                    "quantity": 2,
+                    "salePrice": 500000
+                },
+                {
+                    "product": 2,
+                    "quantity": 3,
+                    "salePrice": 600000
+                }
+            ],
+            "grandTotal": 2800000
+        },
+        {
+            "id": 2,
+            "date": "2024-05-24",
+            "paymentMethod": "cashless",
+            "salesDetails": [
+                {
+                    "product": 3,
+                    "quantity": 1,
+                    "salePrice": 400000
+                }
+            ],
+            "grandTotal": 400000
+        }
+    ]
+}
