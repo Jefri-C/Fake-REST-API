@@ -45,7 +45,7 @@
         {
             "id": 1,
             "date": "2024-05-25",
-            "paymentMethod": "cash",
+            "paymentMethod": "Cash",
             "salesDetails": [
                 {
                     "product": 1,
@@ -63,7 +63,7 @@
         {
             "id": 2,
             "date": "2024-05-24",
-            "paymentMethod": "cashless",
+            "paymentMethod": "Cashless",
             "salesDetails": [
                 {
                     "product": 3,
