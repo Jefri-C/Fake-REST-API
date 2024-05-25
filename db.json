@@ -26,52 +26,52 @@
             "id": "1",
             "categoryID": "1",
             "name": "Product 1",
-            "price": "200000"
+            "price": "200000",
+            "stock": "4"
         },
         {
             "id": "2",
             "categoryID": "3",
             "name": "Product 2",
-            "price": "220000"
+            "price": "220000",
+            "stock": "2"
         },
         {
             "id": "3",
             "categoryID": "2",
             "name": "Product 3",
-            "price": "130000"
+            "price": "130000",
+            "stock": "5"
         }
     ],
     "sales": [
         {
-            "id": 1,
+            "id": "1",
             "date": "2024-05-25",
             "paymentMethod": "Cash",
-            "salesDetails": [
-                {
-                    "product": 1,
-                    "quantity": 2,
-                    "salePrice": 500000
-                },
-                {
-                    "product": 2,
-                    "quantity": 3,
-                    "salePrice": 600000
-                }
-            ],
             "grandTotal": 2800000
         },
         {
-            "id": 2,
+            "id": "2",
             "date": "2024-05-24",
             "paymentMethod": "Cashless",
-            "salesDetails": [
-                {
-                    "product": 3,
-                    "quantity": 1,
-                    "salePrice": 400000
-                }
-            ],
             "grandTotal": 400000
+        }
+    ],
+    "salesDetails": [
+        {
+            "id": "1",
+            "salesID": "1",
+            "productID": "1",
+            "quantity": "2",
+            "salePrice": 500000
+        },
+        {
+            "id": "2",
+            "salesID": "1",
+            "productID": "2",
+            "quantity": "3",
+            "salePrice": 500000
         }
     ]
 }
