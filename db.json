@@ -64,21 +64,21 @@
             "salesID": "1",
             "productID": "1",
             "quantity": "2",
-            "salePrice": 500000
+            "sellPrice": 500000
         },
         {
             "id": "2",
             "salesID": "1",
             "productID": "2",
             "quantity": "3",
-            "salePrice": 500000
+            "sellPrice": 500000
         },
         {
             "id": "3",
             "salesID": "2",
             "productID": "2",
             "quantity": "3",
-            "salePrice": 500000
+            "sellPrice": 500000
         }
     ]
 }
